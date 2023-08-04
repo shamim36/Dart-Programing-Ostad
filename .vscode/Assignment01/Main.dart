@@ -8,9 +8,9 @@ void main() {
   double div = a / b;
   int mod = a % b;
 
-  print('Addition: $add');
-  print('Subtraction: $sub');
-  print('Multiplication: $mul');
-  print('Division: $div');
-  print('Modulus: $mod');
+  print('Addition: $a + $b = $add');
+  print('Subtraction: $a + $b = $sub');
+  print('Multiplication: $a + $b = $mul');
+  print('Division: $a + $b = $div');
+  print('Modulus: $a + $b = $mod');
 }
