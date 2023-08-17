@@ -84,8 +84,8 @@ void main() {
   Car ford = new Car(brand: 'Ford', model: 'F-150', year: 2015);
 
   ford.drive(15000); // miles driven by ford
-  stdout.write(
-      'Car${Car.numberOfCars}:${ford.getBrand()}${ford.getModel()}${ford.getYear()}Miles:${ford.getMilesDriven().round()}Age:${ford.getAge()}');
+  print(
+      'Car ${Car.numberOfCars}: ${ford.getBrand()} ${ford.getModel()} ${ford.getYear()} Miles: ${ford.getMilesDriven().round()} Age: ${ford.getAge()}');
 
-  stdout.write(' Total number of cars created: ${Car.numberOfCars}');
+  print('Total number of cars created: ${Car.numberOfCars}');
 }
