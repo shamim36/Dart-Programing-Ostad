@@ -19,7 +19,8 @@ Expected Output After creating three Car instances:
 
       Car 1: Toyota Carmy 2020 Miles: 10000 Age: 3
       Car 2: Honda Civic 2018 Miles: 8000 Age: 5
-      Car3:FordF-1502015Miles:15000Age:8 Total number of cars created: 3
+      Car 3: Ford F-150 2015 Miles: 15000 Age: 8
+      Total number of cars created: 3
 */
 import 'dart:io';
 
