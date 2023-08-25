@@ -4,11 +4,11 @@ abstract class Account {
   late int accountNumber;
   late double balance;
 
-  getAccountNumber(int accountNumber) {
+  setAccountNumber(int accountNumber) {
     this.accountNumber = accountNumber;
   }
 
-  getBalance(double balance) {
+  setBalance(double balance) {
     this.balance = balance;
   }
 
@@ -29,8 +29,8 @@ class SavingsAccount extends Account {
     required double balance,
     required this.interestRate,
   }) {
-    getAccountNumber(accountNumber);
-    getBalance(balance);
+    setAccountNumber(accountNumber);
+    setBalance(balance);
   }
 
   @override
@@ -58,8 +58,8 @@ class CurrentAccount extends Account {
       {required int accountNumber,
       required double balance,
       required this.overdraftLimit}) {
-    getAccountNumber(accountNumber);
-    getBalance(balance);
+    setAccountNumber(accountNumber);
+    setBalance(balance);
   }
 
   @override
