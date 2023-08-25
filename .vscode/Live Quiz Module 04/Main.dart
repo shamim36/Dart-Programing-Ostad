@@ -17,7 +17,7 @@ base class Song extends Media {
 
 void main() {
   Media media = new Media();
-  Song song = new Song(artist: 'Jennie');
+  Song song = new Song(artist: 'Justine Biber');
 
   media.play();
   song.play();
